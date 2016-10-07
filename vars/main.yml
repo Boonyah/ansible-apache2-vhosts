@@ -49,7 +49,7 @@ vhost_php_packages:
   - php7.0-common
   - php7.0-cli
   - php-apcu
-  - php7.0-pear
+  - php-pear
   - php7.0-gd
   - php7.0-memcache
   - php7.0-mcrypt
