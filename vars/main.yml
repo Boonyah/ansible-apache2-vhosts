@@ -51,7 +51,7 @@ vhost_php_packages:
   - php-apcu
   - php-pear
   - php7.0-gd
-  - php7.0-memcache
+  - php-memcache
   - php7.0-mcrypt
   - php7.0-gmp
   - php7.0-mysql
