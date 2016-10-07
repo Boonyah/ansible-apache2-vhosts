@@ -4,7 +4,7 @@ apache_packages:
   - apache2-doc
   - apache2-utils
   - libapache2-mod-php
-  #- apache2-mpm-itk
+  - libapache2-mpm-itk
   
 
 apache_modules:
