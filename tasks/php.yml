@@ -9,7 +9,7 @@
 - name: Set php.ini
   template:
     src: "php/{{ item }}.php.ini.j2"
-    dest: "/etc/php5/{{ item }}/php.ini"
+    dest: "/etc/php7.0/{{ item }}/php.ini"
   with_items:
     - apache2
   notify: Restart apache
