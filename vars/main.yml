@@ -29,8 +29,8 @@ apache_modules:
   - mime.load
   - negotiation.conf
   - negotiation.load
-  - php5.conf
-  - php5.load
+  - php7.0.conf
+  - php7.0.load
   - reqtimeout.conf
   - reqtimeout.load
   - rewrite.load
