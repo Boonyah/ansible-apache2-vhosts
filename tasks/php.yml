@@ -3,7 +3,7 @@
   apt:
     pkg: "{{ item }}"
     state: latest
-  with_items: php_packages
+  with_items: vhost_php_packages
   notify: Restart apache
 
 - name: Set php.ini
