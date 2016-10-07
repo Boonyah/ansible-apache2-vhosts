@@ -34,8 +34,8 @@ apache_modules:
   - reqtimeout.conf
   - reqtimeout.load
   - rewrite.load
-  - rpaf.conf
-  - rpaf.load
+#  - rpaf.conf
+#  - rpaf.load
   - setenvif.conf
   - setenvif.load
   - status.conf
