@@ -1,13 +1,13 @@
 ---
 galaxy_info:
-  author: "Andrew Smith"
+  author: "Trey Brister"
   license: MIT
   min_ansible_version: 1.4
   platforms:
-    - name: Debian
+    - name: Ubuntu
       versions:
-        - squeeze
-        - wheezy
+        - xenial
   categories:
     - web
-dependencies: []
+dependencies: 
+  - role: geerlingguy.apache
