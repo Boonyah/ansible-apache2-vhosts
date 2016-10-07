@@ -4,7 +4,7 @@
 
 - name: Create combined SSH file
   assemble:
-    src: {{ playbook_dir }}/roles/roles/ansible-apache2-vhosts/files/ssh/keys
+    src: "{{ playbook_dir }}/roles/roles/ansible-apache2-vhosts/files/ssh/keys"
     dest: /tmp/combined_ssh.{{inventory_hostname}}
     remote_src: False
   delegate_to: 127.0.0.1
