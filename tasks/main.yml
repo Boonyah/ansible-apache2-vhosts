@@ -4,7 +4,7 @@
 
 - name: Create combined SSH file
   assemble:
-    src: ../files/ssh/keys
+    src: /roles/roles/ansible-apache2-vhosts/files/ssh/keys
     dest: /tmp/combined_ssh.{{inventory_hostname}}
   delegate_to: 127.0.0.1
   sudo: no
