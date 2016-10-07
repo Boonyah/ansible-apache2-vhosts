@@ -3,8 +3,9 @@ apache_packages:
   - apache2
   - apache2-doc
   - apache2-utils
-  - apache2-mpm-itk
-  - libapache2-mod-php5
+  - libapache2-mod-php
+  #- apache2-mpm-itk
+  
 
 apache_modules:
   - alias.conf
@@ -44,24 +45,23 @@ apache_host: "127.0.0.1"
 apache_port: "80"
 apache_ssl_port: "443"
 
-
 php_packages:
-  - php5-common
-  - php5-cli
-  - php5-suhosin
-  - php5-apc
-  - php-pear
-  - php5-gd
-  - php5-memcache
-  - php5-mcrypt
-  - php5-gmp
-  - php5-mysql
-  - php5-curl
+  - php7.0-common
+  - php7.0-cli
+  - php7.0-suhosin
+  - php7.0-apc
+  - php7.0-pear
+  - php7.0-gd
+  - php7.0-memcache
+  - php7.0-mcrypt
+  - php7.0-gmp
+  - php7.0-mysql
+  - php7.0-curl
 
-post_max_size: "10M"
-upload_max_filesize: "10M"
-php_timezone: "Australia/Brisbane"
-memory_limit: "32M"
+post_max_size: "64M"
+upload_max_filesize: "64M"
+php_timezone: "America/Chicago"
+memory_limit: "64M"
 html_errors: "Off"
 
 vhost_base_path: "/srv/www"
