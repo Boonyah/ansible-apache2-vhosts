@@ -12,7 +12,7 @@ apache_modules:
   - alias.load
   - auth_basic.load
   - authn_file.load
-  - authz_default.load
+ # - authz_default.load
   - authz_groupfile.load
   - authz_host.load
   - authz_user.load
